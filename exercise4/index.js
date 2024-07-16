@@ -55,7 +55,7 @@ const programmingBooks = [
 
   function techBooks(booksArray, technology) {
     let techLowerCase = technology.toLowerCase();
-    return booksArray.  filter(book => book.toLowerCase().includes(techLowerCase));
+    return booksArray.filter(book => book.toLowerCase().includes(techLowerCase));
   }
   
   let javaBooks = techBooks(programmingBooks, "Java");
